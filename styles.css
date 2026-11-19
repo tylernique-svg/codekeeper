@@ -1,0 +1,82 @@
+
+:root {
+  color-scheme: light;
+  --bg: #f6f1e8;
+  --ink: #1c1a16;
+  --muted: #5c564c;
+  --card: #fffdf8;
+  --line: #d9d0c3;
+  --accent: #0b5f4b;
+  --warn: #7a3d00;
+  --teen: #8a1c2c;
+  --ok: #0b5f4b;
+  --radius: 16px;
+  font-family: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 1.5rem 1.1rem 3rem;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+}
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 1rem; background: #fff; padding: .5rem; }
+.eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; color: var(--muted); margin: 0; }
+h1 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin: .2rem 0 .6rem; }
+.lede, .hint, .meta, .rating, footer { color: var(--muted); }
+.banner {
+  background: #fff4e0;
+  border: 1px solid #efd2a8;
+  border-radius: var(--radius);
+  padding: .9rem 1rem;
+  margin: 1.2rem 0;
+  color: var(--warn);
+}
+.search-panel { margin: 1.4rem 0 1rem; }
+label { display: block; font-weight: 650; margin-bottom: .35rem; }
+#q {
+  width: 100%;
+  font: inherit;
+  font-size: 1.1rem;
+  padding: .7rem .9rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem 1.15rem;
+  margin: 0 0 1rem;
+}
+.card-head h2 { margin: 0 0 .25rem; }
+.badge {
+  display: inline-block;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .03em;
+  padding: .1rem .45rem;
+  border-radius: 999px;
+  margin-right: .3rem;
+  background: #e6f3ef;
+  color: var(--ok);
+}
+.badge.teen { background: #f8e4e7; color: var(--teen); }
+.item { border-top: 1px solid var(--line); padding: .7rem 0 0; margin-top: .7rem; }
+.item h3 { margin: 0 0 .25rem; font-size: 1rem; }
+.code {
+  font-family: ui-monospace, "Cascadia Code", monospace;
+  font-weight: 700;
+  background: #eef6f3;
+  padding: .05rem .35rem;
+  border-radius: 6px;
+}
+.item p { margin: .2rem 0; }
+footer { margin-top: 2rem; font-size: .92rem; }
+.prose a, footer a, .banner a { color: var(--accent); }
+.hidden { display: none !important; }
+.empty { padding: 1rem; color: var(--muted); }
