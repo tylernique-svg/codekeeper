@@ -13,7 +13,7 @@ This is a fan resource for Tyler’s Business Project Number Four. It is **not a
 - This site has no accounts, comments, or trackers. Search runs in your browser.
 - Fortnite and the Roblox *platform* are labeled **13+** (ESRB Teen). Parents should use official parental controls.
 
-Search engines: these pages currently include a `noindex, nofollow` robots meta tag. That is temporary and should be removed at public launch.
+Search engines: the site is indexable (noindex removed 2026-11-19 with Tyler's approval).
 
 ## What’s in this repository
 
