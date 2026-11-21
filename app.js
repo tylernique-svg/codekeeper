@@ -39,19 +39,29 @@
       generated.textContent = data.generated_at || "";
       const codesByGame = {};
       const salesByGame = {};
+      const tipsByGame = {};
       (data.codes || []).forEach((c) => {
         (codesByGame[c.game_id] ||= []).push(c);
       });
       (data.sales || []).forEach((s) => {
         (salesByGame[s.game_id] ||= []).push(s);
       });
+      (data.tips || []).forEach((t) => {
+        (tipsByGame[t.game_id] ||= []).push(t);
+      });
+
+      function tipKindLabel(k) {
+        return ({ tip: "Tips", strategy: "Strategies", advice: "Advice", easter_egg: "Easter eggs" })[k] || k;
+      }
 
       function render(filter) {
         const q = norm(filter);
         results.innerHTML = "";
         let shown = 0;
         data.games.forEach((g) => {
-          const hay = norm([g.name, g.aliases, g.publisher, g.franchise_or_platform].join(" "));
+          const tips = tipsByGame[g.id] || [];
+          const tipHay = tips.map((t) => [t.title, t.body, t.kind, t.platform].join(" ")).join(" ");
+          const hay = norm([g.name, g.aliases, g.publisher, g.franchise_or_platform, tipHay].join(" "));
           if (q && !hay.includes(q)) return;
           shown += 1;
           const art = document.createElement("article");
@@ -69,8 +79,8 @@
           let body = "";
           const codes = codesByGame[g.id] || [];
           const sales = salesByGame[g.id] || [];
-          if (!codes.length && !sales.length) {
-            body += `<p>No verified active codes or prices are on file yet. Check the official page linked above.</p>`;
+          if (!codes.length && !sales.length && !tips.length) {
+            body += `<p>No verified active codes, prices, or tips are on file yet. Check the official page linked above.</p>`;
           }
           codes.forEach((c) => {
             const code = c.code_text
@@ -103,6 +113,23 @@
               <p>Checked ${escapeHtml(s.date_checked || "")}.</p>
             </section>`;
           });
+          if (tips.length) {
+            body += `<section class="tips"><h3>Tips &amp; secrets</h3>`;
+            ["tip", "strategy", "advice", "easter_egg"].forEach((kind) => {
+              const group = tips.filter((t) => t.kind === kind);
+              if (!group.length) return;
+              body += `<h4 class="tip-kind">${escapeHtml(tipKindLabel(kind))}</h4>`;
+              group.forEach((t) => {
+                body += `<section class="item tip">
+                  <h3>${escapeHtml(t.title)}</h3>
+                  <p>${escapeHtml(t.body)}</p>
+                  ${t.platform ? `<p>Platform: ${escapeHtml(t.platform)}</p>` : ""}
+                  ${t.source_url ? `<p>Source: <a href="${escapeAttr(t.source_url)}">${escapeHtml(t.source_name || t.source_url)}</a> (checked ${escapeHtml(t.date_checked || "")})</p>` : (t.date_checked ? `<p>Checked ${escapeHtml(t.date_checked)}.</p>` : "")}
+                </section>`;
+              });
+            });
+            body += `</section>`;
+          }
           if (g.notes) body += `<p class="meta">${escapeHtml(g.notes)}</p>`;
 
           art.innerHTML = `
@@ -115,7 +142,7 @@
           results.appendChild(art);
         });
         status.textContent = q
-          ? (shown ? shown + " game" + (shown === 1 ? "" : "s") + " matched." : "No games matched. Try a shorter name or an alias.")
+          ? (shown ? shown + " game" + (shown === 1 ? "" : "s") + " matched." : "No games or tips matched. Try a shorter name or a tip keyword.")
           : (data.games.length + " games in this catalog. Type to filter.");
         if (!shown) {
           const p = document.createElement("p");

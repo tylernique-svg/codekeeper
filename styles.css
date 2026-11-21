@@ -76,6 +76,20 @@ label { display: block; font-weight: 650; margin-bottom: .35rem; }
   border-radius: 6px;
 }
 .item p { margin: .2rem 0; }
+.tips { margin-top: 1rem; }
+.tips > h3 {
+  margin: 1rem 0 .35rem;
+  font-size: 1.15rem;
+  color: var(--accent);
+}
+.tip-kind {
+  margin: .85rem 0 .15rem;
+  font-size: .8rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.item.tip { border-top-style: dashed; }
 footer { margin-top: 2rem; font-size: .92rem; }
 .prose a, footer a, .banner a { color: var(--accent); }
 .hidden { display: none !important; }
