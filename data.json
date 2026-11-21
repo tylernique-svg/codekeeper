@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21 13:02:35 UTC",
+  "generated_at": "2026-11-21 17:02:58 UTC",
   "disclaimer": "Unofficial fan resource. Not affiliated with Roblox, Epic Games, Nintendo, The Pokémon Company, Microsoft, Mojang, Supercell, Niantic, or other publishers. Codes expire and can be cancelled. Always confirm on the official redeem page before entering anything. This site does not collect personal information.",
   "games": [
     {
@@ -240,9 +240,9 @@
       "expiry_date": null,
       "source_url": "https://en.help.roblox.com/hc/en-us/articles/360029650831-How-Do-I-Redeem-a-Promo-Code",
       "source_name": "Roblox Support",
-      "date_checked": "2026-11-19",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Log in at roblox.com on the account that should receive the item. Open https://www.roblox.com/redeem, enter the code exactly, and select Redeem. Official help says a successful code may grant Credit, Robux, or a virtual item depending on the type of code you already have. Promo codes may expire or only be active briefly. Never share unique gift-card numbers. Ignore any site that promises free Robux generators — those are scams.",
-      "notes": "Official pages still do not publish a shareable platform-wide promo-code list. Rechecked 2026-11-19: roblox.com/promocodes is the same redeem form as roblox.com/redeem; official help and official @Roblox posts named no live public promo string."
+      "notes": "Official pages still do not publish a shareable platform-wide promo-code list. Rechecked 2026-11-21: official Roblox help still explains how to redeem but names no current public promo string, and no official @Roblox post in 2026 was found announcing a live public promo code (search covered promo / promocode / redeem / SPIDERCOLA). Never share unique gift-card numbers. Sites promising free Robux generators are scams."
     },
     {
       "id": 3,
@@ -259,9 +259,9 @@
       "expiry_date": null,
       "source_url": "https://www.playadopt.me/redeem",
       "source_name": "Official Adopt Me! redeem page (Uplift Games)",
-      "date_checked": "2026-11-19",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Inside Adopt Me!, go to the Safety Hub, find Agent Ruhi next to the Code Redemption Kiosk, open the kiosk, type the code under Enter Your Code, and redeem. Official terms: no purchase is necessary for promotional codes; codes are limited-time and may be cancelled at any time; each code is one-time use; items have no cash value and may not be traded, exchanged, gifted, or sold. Watch official @PlayAdoptMe channels for any new public codes.",
-      "notes": "The official redeem page documents the kiosk and rules but does not list a current public code string. Rechecked 2026-11-19: latest official news (Slushie Party Notes, 13 November 2026) and official @PlayAdoptMe posts since June listed no still-open official window for a current public code."
+      "notes": "The official redeem page documents the kiosk and rules but does not list a current public code string. Rechecked 2026-11-21: latest official news (Quality of Life Improvements, 20 November 2026) and official @PlayAdoptMe posts since June listed no still-open official window for a current public code."
     },
     {
       "id": 4,
@@ -278,9 +278,9 @@
       "expiry_date": null,
       "source_url": "https://www.playadopt.me/redeem",
       "source_name": "Official Adopt Me! redeem page (Uplift Games)",
-      "date_checked": "2026-11-19",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Merchandise codes come only with eligible official Adopt Me! merchandise. Redeem them at the same in-game Code Redemption Kiosk. Keep the unique code private and enter it only in the official kiosk. This site will never republish a merchandise code.",
-      "notes": "is_single_use_unique=1 and code_text is empty, by design. Rechecked 2026-11-19; merch/DLC strings are still never republished."
+      "notes": "is_single_use_unique=1 and code_text is empty, by design. Rechecked 2026-11-21; merch/DLC strings are still never republished."
     },
     {
       "id": 5,
@@ -297,9 +297,28 @@
       "expiry_date": null,
       "source_url": "https://en.help.roblox.com/hc/en-us/articles/10549651908244-Promo-Offers-for-Virtual-Rewards",
       "source_name": "Roblox Promo Offers for Virtual Rewards (developer rules); redeem path is in-experience",
-      "date_checked": "2026-11-19",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Open Grow a Garden, use the in-experience Settings / Redeem Codes field, enter a code from the developer's official announcement exactly, and claim. Only trust codes posted on the developer's official channels. Unofficial 'working codes' lists disagreed with each other on 2026-11-14, so none are published as active here.",
-      "notes": "Official @GrowaGardenRblx and the official experience description were opened on 2026-11-19. No current official public code for the original game was confirmed as still live. Grow a Garden 2 is a separate experience."
+      "notes": "Official @GrowaGardenRblx posts and the official experience / playgrow.io pages were opened on 2026-11-21. No current official public code for the original game was confirmed as still live. Older official codes remain stored as unverified until they are reconfirmed. Grow a Garden 2 is a separate experience. Official merch/DLC codes are unique and are never republished here."
+    },
+    {
+      "id": 35,
+      "game_id": 3,
+      "game_name": "Grow a Garden",
+      "game_slug": "grow-a-garden",
+      "type": "how_to_only",
+      "code_text": null,
+      "reward": "How to redeem unique Grow a Garden merchandise (DLC) codes that came with official merch or orders — code string not published",
+      "platforms": "Roblox — Grow a Garden or Grow a Garden 2, as named on the official DLC guide",
+      "region_lock": "unspecified — not stated by official source",
+      "status": "active",
+      "start_date": null,
+      "expiry_date": null,
+      "source_url": "https://playgrow.io/pages/dlc-redemption-steps",
+      "source_name": "Official playgrow.io DLC Redemption Steps",
+      "date_checked": "2026-11-21",
+      "redeem_instructions": "Merchandise and order DLC codes are unique and single-use. Reveal a physical token code, or find an emailed code in Your Orders / the order email, then open the matching official experience on Roblox (Grow a Garden or Grow a Garden 2, as the official guide shows), open Settings, enter the code under Redeem Codes, and claim. Keep the unique code private and enter it only in the official experience. This site will never republish a merchandise or order DLC code. Official FAQ: do not sell or share DLC codes.",
+      "notes": "is_single_use_unique=1 and code_text is empty, by design. Official guide checked 2026-11-21. playgrow.io currently also documents redemption for Grow a Garden 2, a separate experience."
     },
     {
       "id": 21,
@@ -316,9 +335,9 @@
       "expiry_date": "2026-12-01",
       "source_url": "https://x.com/_Dress2Impress/status/2121678165781418392",
       "source_name": "Official @_Dress2Impress X post (14 November 2026)",
-      "date_checked": "2026-11-19",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "During intermission or the dressing phase (not mid-runway), open the Codes / handbag button, enter the code from an official Dress to Impress announcement exactly, and redeem. Merchandise or toy codes are unique — never share or publish those.",
-      "notes": "Official post (full text) says ANNIVERSARY and 3YEARS expire December 1st, 11 AM EST. expiry_date is stored as 2026-12-01 so the daily expire job will mark it expired the following calendar day. Region was not stated."
+      "notes": "Official post (full text) says ANNIVERSARY and 3YEARS expire December 1st, 11 AM EST. expiry_date is stored as 2026-12-01 so the daily expire job will mark it expired the following calendar day. Region was not stated. Rechecked 2026-11-21: the official @_Dress2Impress post is still live and no later official post ended these codes."
     },
     {
       "id": 20,
@@ -335,9 +354,28 @@
       "expiry_date": "2026-12-01",
       "source_url": "https://x.com/_Dress2Impress/status/2121678165781418392",
       "source_name": "Official @_Dress2Impress X post (14 November 2026)",
-      "date_checked": "2026-11-19",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "During intermission or the dressing phase (not mid-runway), open the Codes / handbag button, enter the code from an official Dress to Impress announcement exactly, and redeem. Merchandise or toy codes are unique — never share or publish those.",
-      "notes": "Official post (full text) says ANNIVERSARY and 3YEARS expire December 1st, 11 AM EST. The same post also announced a 3X candy currency coupon that had to be activated by November 16, 2 PM EST; that perk is not a typed code and had already ended when this row was added. Region was not stated."
+      "notes": "Official post (full text) says ANNIVERSARY and 3YEARS expire December 1st, 11 AM EST. The same post also announced a 3X candy currency coupon that had to be activated by November 16, 2 PM EST; that perk is not a typed code and had already ended when this row was first added. Region was not stated. Rechecked 2026-11-21: the official @_Dress2Impress post is still live and no later official post ended these codes."
+    },
+    {
+      "id": 34,
+      "game_id": 4,
+      "game_name": "Dress to Impress",
+      "game_slug": "dress-to-impress",
+      "type": "perk",
+      "code_text": null,
+      "reward": "2024 and 2025 Halloween quests are available again until the Winter Update (no typed code)",
+      "platforms": "Roblox — Dress to Impress experience",
+      "region_lock": "unspecified — not stated by official source",
+      "status": "active",
+      "start_date": "2026-11-05",
+      "expiry_date": null,
+      "source_url": "https://x.com/_Dress2Impress/status/2118448667866923135",
+      "source_name": "Official @_Dress2Impress X post (5 November 2026)",
+      "date_checked": "2026-11-21",
+      "redeem_instructions": "In Dress to Impress, play the returned 2024 and 2025 Halloween quests while the official window is open. There is no typed redeem code. The official post said these quests will be available until the Winter Update; that update’s date was not stated.",
+      "notes": "Official announcement checked 2026-11-21. Later official posts (including the 14 November anniversary codes post) did not end this window. Expiry stays blank until an official Winter Update end date is published."
     },
     {
       "id": 6,
@@ -354,9 +392,9 @@
       "expiry_date": null,
       "source_url": "https://en.help.roblox.com/hc/en-us/articles/10549651908244-Promo-Offers-for-Virtual-Rewards",
       "source_name": "Roblox Promo Offers for Virtual Rewards (developer rules); redeem path is in-experience",
-      "date_checked": "2026-11-19",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "During intermission or the dressing phase (not mid-runway), open the Codes / handbag button, enter a code from the developer's official announcement exactly, and redeem. Merchandise or toy codes are unique — never share or publish those. Watch official @_Dress2Impress posts for current public codes and their expiry dates.",
-      "notes": "Official @_Dress2Impress posts were opened first-hand on 2026-11-19. Verified live codes ANNIVERSARY and 3YEARS (expire 1 December 2026, 11 AM EST) are listed here. Other official posts without a still-open window are not listed until they are confirmed as still live. Merchandise codes are unique and are never republished here."
+      "notes": "Official @_Dress2Impress posts were opened first-hand on 2026-11-21. Verified live codes ANNIVERSARY and 3YEARS (expire 1 December 2026, 11 AM EST) are listed here. Official code RDC2026 was confirmed expired (ended 19 September 2026, 11 AM EST) and is stored as expired. Other official posts without a still-open window stay unverified until they are reconfirmed as still live. Merchandise codes are unique and are never republished here."
     },
     {
       "id": 8,
@@ -411,9 +449,9 @@
       "expiry_date": "2027-01-07",
       "source_url": "https://www.pokemon.com/us/news/get-stylish-and-cozy-furniture-sets-as-pokemon-pokopia-mystery-gifts",
       "source_name": "pokemon.com news (official)",
-      "date_checked": "2026-11-14",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Visit the PC at any Pokémon Center in Pokémon Pokopia. Select Get Items, then Mystery Gifts, then Get with Code/Password, and enter CELEBRATE30TH.",
-      "notes": "Official 30th-anniversary Mystery Gift. A second furniture set (warm cozy) is scheduled for December 10, 2026–February 4, 2027; official page says that code will be available soon — not invented here."
+      "notes": "Official 30th-anniversary Mystery Gift, reconfirmed on pokemon.com on 2026-11-21; still listed through January 7, 2027. A second furniture set (warm cozy) is scheduled for December 10, 2026–February 4, 2027; official page says that code will be available soon — not invented here."
     },
     {
       "id": 10,
@@ -430,9 +468,28 @@
       "expiry_date": "2027-02-04",
       "source_url": "https://www.pokemon.com/us/news/get-stylish-and-cozy-furniture-sets-as-pokemon-pokopia-mystery-gifts",
       "source_name": "pokemon.com news (official)",
-      "date_checked": "2026-11-14",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "The official page says this set will be claimable between December 10, 2026 and February 4, 2027 using a code that will be available soon. Check pokemon.com — do not use guessed codes.",
-      "notes": "No code string has been published yet. Track official news; do not invent the December code."
+      "notes": "No code string has been published yet as of 2026-11-21. Official pokemon.com page still says the code will be available soon. Track official news; do not invent the December code."
+    },
+    {
+      "id": 38,
+      "game_id": 6,
+      "game_name": "Pokémon Pokopia",
+      "game_slug": "pokemon-pokopia",
+      "type": "perk",
+      "code_text": null,
+      "reward": "In-game Ditto rug early-purchase bonus (Mystery Gift via Get via Internet — no typed code)",
+      "platforms": "Nintendo Switch 2",
+      "region_lock": "unspecified — not stated by official source",
+      "status": "active",
+      "start_date": "2026-03-05",
+      "expiry_date": "2027-01-31",
+      "source_url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+      "source_name": "Official US Nintendo store product page (publisher notification)",
+      "date_checked": "2026-11-21",
+      "redeem_instructions": "After purchasing Pokémon Pokopia (game-key card or digital), visit a Pokémon Center PC, choose Get Items, then Mystery Gifts, then Get via Internet, and save. There is no typed password. Official store page says you can claim the Ditto rug by Sunday, January 31, 2027. A Nintendo Account is required to go online; a paid Nintendo Switch Online membership is not required. Once per save data.",
+      "notes": "Official Nintendo US store product page publisher notification, checked 2026-11-21. This is an early-purchase bonus tied to owning the game, not a shareable serial code."
     },
     {
       "id": 11,
@@ -449,9 +506,9 @@
       "expiry_date": "2027-01-07",
       "source_url": "https://www.pokemon.com/us/news/get-shiny-xerneas-in-pokemon-legends-z-a-via-mystery-gift",
       "source_name": "pokemon.com news (official)",
-      "date_checked": "2026-11-14",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Open the main menu, select Link Play, select Mystery Gift, select Get with Code/Password, enter CELEBRATE30TH, and save your game. You have until Thursday, January 7, 2027.",
-      "notes": "Same public password also works in Pokémon Pokopia for furniture. Official page says Shiny Yveltal distribution starts December 10, 2026; that password has not been published yet."
+      "notes": "Official 30th-anniversary Mystery Gift, reconfirmed on pokemon.com on 2026-11-21; still listed through Thursday, January 7, 2027. Same public password also works in Pokémon Pokopia for furniture. Official page and official @Pokemon post (12 November 2026) say Shiny Yveltal distribution starts December 10, 2026; that password has not been published yet."
     },
     {
       "id": 12,
@@ -468,9 +525,66 @@
       "expiry_date": null,
       "source_url": "https://www.pokemon.com/us/news/get-shiny-xerneas-in-pokemon-legends-z-a-via-mystery-gift",
       "source_name": "pokemon.com news (official)",
-      "date_checked": "2026-11-14",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Official page: starting December 10, 2026 you will be able to receive Shiny Yveltal. Keep checking pokemon.com for the password. Do not use guessed codes.",
-      "notes": "No password published as of 2026-11-14."
+      "notes": "No password published as of 2026-11-21. Official pokemon.com news and official @Pokemon post (12 November 2026) still say Shiny Yveltal will be available starting December 10, 2026. Keep checking pokemon.com. Do not use guessed codes."
+    },
+    {
+      "id": 36,
+      "game_id": 7,
+      "game_name": "Pokémon Legends: Z-A",
+      "game_slug": "pokemon-legends-z-a",
+      "type": "perk",
+      "code_text": null,
+      "reward": "Poké Ball Pattern Vivillon (Mystery Gift via Get via Internet — no typed code)",
+      "platforms": "Nintendo Switch, Nintendo Switch 2",
+      "region_lock": "unspecified — not stated by official source",
+      "status": "active",
+      "start_date": "2026-11-06",
+      "expiry_date": "2027-02-25",
+      "source_url": "https://www.pokemon.com/us/news/receive-a-poke-ball-pattern-vivillon-in-pokemon-legends-z-a",
+      "source_name": "pokemon.com news (official)",
+      "date_checked": "2026-11-21",
+      "redeem_instructions": "Open the main menu, select Link Play, select Mystery Gift, then select Get via Internet, and save your game. There is no typed password. You have until Thursday, February 25, 2027, at 5:59 p.m. PST. The Mystery Gift menu unlocks after the Rewards feature in Mable’s Research (about one hour of play). A Nintendo Account is required to go online; a paid Nintendo Switch Online membership is not required. Once per save data.",
+      "notes": "Official window stated through Thursday, February 25, 2027, at 5:59 p.m. PST. Also announced on official @Pokemon (6 November 2026). Rechecked official news page 2026-11-21. expiry_date is stored as 2027-02-25; the official clock time is 5:59 p.m. PST that day."
+    },
+    {
+      "id": 39,
+      "game_id": 8,
+      "game_name": "Pokémon Scarlet and Violet",
+      "game_slug": "pokemon-scarlet-violet",
+      "type": "promo_redeem",
+      "code_text": "STRACKSU1T",
+      "reward": "Pokémon Scarlet Tracksuit (in-game apparel; look differs by game version)",
+      "platforms": "Nintendo Switch, Nintendo Switch 2",
+      "region_lock": "unspecified — not stated by official source",
+      "status": "active",
+      "start_date": "2025-07-22",
+      "expiry_date": null,
+      "source_url": "https://scarletviolet.pokemon.com/en-us/events/tracksuit-mystery-gift/",
+      "source_name": "Official Pokémon Scarlet and Violet tracksuit Mystery Gift page",
+      "date_checked": "2026-11-21",
+      "redeem_instructions": "After you can use Mystery Gift (about 1 to 1.5 hours of play, at the first Pokémon Center), press X, open Poké Portal, choose Mystery Gift, then Get with Code/Password, connect to the internet, and enter STRACKSU1T. Use this password in Pokémon Scarlet. The password uses the digit 1, not the letter I. Once per save data. Save after redeeming.",
+      "notes": "Official page still said “Available Now” on 2026-11-21. Distribution began Tuesday, July 22, 2025, at 6:00 a.m. PDT. Official page warns distribution may end without prior communication, so this should be rechecked often. A later unofficial list is not the authority; this row uses the official event page only."
+    },
+    {
+      "id": 40,
+      "game_id": 8,
+      "game_name": "Pokémon Scarlet and Violet",
+      "game_slug": "pokemon-scarlet-violet",
+      "type": "promo_redeem",
+      "code_text": "VTRACKSU1T",
+      "reward": "Pokémon Violet Tracksuit (in-game apparel; look differs by game version)",
+      "platforms": "Nintendo Switch, Nintendo Switch 2",
+      "region_lock": "unspecified — not stated by official source",
+      "status": "active",
+      "start_date": "2025-07-22",
+      "expiry_date": null,
+      "source_url": "https://scarletviolet.pokemon.com/en-us/events/tracksuit-mystery-gift/",
+      "source_name": "Official Pokémon Scarlet and Violet tracksuit Mystery Gift page",
+      "date_checked": "2026-11-21",
+      "redeem_instructions": "After you can use Mystery Gift (about 1 to 1.5 hours of play, at the first Pokémon Center), press X, open Poké Portal, choose Mystery Gift, then Get with Code/Password, connect to the internet, and enter VTRACKSU1T. Use this password in Pokémon Violet. The password uses the digit 1, not the letter I. Once per save data. Save after redeeming.",
+      "notes": "Official page still said “Available Now” on 2026-11-21. Distribution began Tuesday, July 22, 2025, at 6:00 a.m. PDT. Official page warns distribution may end without prior communication, so this should be rechecked often. A later unofficial list is not the authority; this row uses the official event page only."
     },
     {
       "id": 13,
@@ -487,9 +601,9 @@
       "expiry_date": null,
       "source_url": "https://scarletviolet.pokemon.com",
       "source_name": "Official Scarlet/Violet site (redeem path is in-game Mystery Gift)",
-      "date_checked": "2026-11-14",
-      "redeem_instructions": "Reach the first Pokémon Center, then press X, open Poké Portal, choose Mystery Gift, and use Get with Code/Password (for a published serial code) or Get via Internet (for internet distributions). No official pokemon.com page listing a currently shareable Scarlet/Violet serial code was opened on 2026-11-14.",
-      "notes": "Fan-site serials (for example tracksuit or Rotom case codes listed on Serebii or Dexerto) were not used as authority and are not published as active."
+      "date_checked": "2026-11-21",
+      "redeem_instructions": "Reach the first Pokémon Center, then press X, open Poké Portal, choose Mystery Gift, and use Get with Code/Password (for a published serial code) or Get via Internet (for internet distributions). Current official serials and internet gifts, when verified, are listed as their own rows.",
+      "notes": "Rechecked 2026-11-21. Official shareable serials STRACKSU1T (Scarlet tracksuit) and VTRACKSU1T (Violet tracksuit) are listed from the official event page and stored as active. Official sandwich password P4LD3AP1CN1C is stored as expired (ended 19 January 2026, 12:59 p.m. PST). Fan-site lists are not used as proof."
     },
     {
       "id": 14,
@@ -506,9 +620,9 @@
       "expiry_date": null,
       "source_url": "https://www.pokemongolive.com/redeem",
       "source_name": "Official Pokémon GO Code Redemption page",
-      "date_checked": "2026-11-14",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Open https://www.pokemongolive.com/redeem, sign in with your Pokémon GO account, and enter an official offer or gift-card code you already received. Gift-card codes are unique; keep them private. See the official Code Redemption FAQ or Gift Card FAQ linked from that page if something fails. No official public offer code was listed on the page when it was opened on 2026-11-14.",
-      "notes": "Gift cards are unique entitlements."
+      "notes": "Gift cards are unique entitlements and are never republished here. Rechecked 2026-11-21: the public official redeem page is a sign-in form for offer or gift-card codes and does not list a current public offer code. The signed-in redeem flow was not opened."
     },
     {
       "id": 15,
@@ -525,9 +639,9 @@
       "expiry_date": null,
       "source_url": "https://support.pokemon.com/hc/en-us/articles/6488400519444-Code-Card-Redemption-FAQ",
       "source_name": "Official Pokémon Support — Code Card Redemption FAQ",
-      "date_checked": "2026-11-14",
+      "date_checked": "2026-11-21",
       "redeem_instructions": "Log in with the Pokémon Trainer Central account linked to Pokémon TCG Live at https://redeem.tcg.pokemon.com/en-us/, enter the code from your official product, submit, then claim. Or in the TCG Live app on Android or desktop: Shop > Redeem, enter or scan the code, then Claim Now. Each pack/product code is unique and single-use. Never post it online.",
-      "notes": "is_single_use_unique=1 with empty code_text, by design. The official redeem URL body was empty in a prior planning fetch; the support FAQ is the documented how-to."
+      "notes": "is_single_use_unique=1 with empty code_text, by design. Rechecked 2026-11-21; unique pack and product codes are still never republished here. The official support FAQ remains the documented how-to."
     },
     {
       "id": 16,
@@ -670,8 +784,8 @@
       "deal_url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
       "source": "official_store",
       "affiliate_or_redirect": 0,
-      "date_checked": "2026-11-14",
-      "notes": "Official US Nintendo store product page (schema price $69.99) opened 2026-11-14. Not on sale."
+      "date_checked": "2026-11-21",
+      "notes": "Official US Nintendo store product page JSON-LD offer price opened 2026-11-21. In stock and not discounted (schema price equals the stored regular price; no sale price was shown for this product). The official Nov 19–Dec 2 digital sale is running, but this title remained at regular price on its product page. Official Black Friday $20-off offers start Nov 22 and, as listed on Nintendo’s 12 November 2026 news post, name other titles, not this one."
     },
     {
       "id": 4,
@@ -692,8 +806,8 @@
       "deal_url": "https://www.nintendo.com/us/store/products/pokemon-legends-z-a-switch/",
       "source": "official_store",
       "affiliate_or_redirect": 0,
-      "date_checked": "2026-11-14",
-      "notes": "Official US Nintendo store product page (schema price $59.99) opened 2026-11-14. Not on sale."
+      "date_checked": "2026-11-21",
+      "notes": "Official US Nintendo store product page JSON-LD offer price opened 2026-11-21. In stock and not discounted (schema price equals the stored regular price; no sale price was shown for this product). The official Nov 19–Dec 2 digital sale is running, but this title remained at regular price on its product page. Official Black Friday $20-off offers start Nov 22 and, as listed on Nintendo’s 12 November 2026 news post, name other titles, not this one."
     },
     {
       "id": 5,
@@ -714,8 +828,8 @@
       "deal_url": "https://www.nintendo.com/us/store/products/pokemon-legends-z-a-switch-2/",
       "source": "official_store",
       "affiliate_or_redirect": 0,
-      "date_checked": "2026-11-14",
-      "notes": "Official US Nintendo store product page (schema price $69.99) opened 2026-11-14. Not on sale."
+      "date_checked": "2026-11-21",
+      "notes": "Official US Nintendo store product page JSON-LD offer price opened 2026-11-21. In stock and not discounted (schema price equals the stored regular price; no sale price was shown for this product). The official Nov 19–Dec 2 digital sale is running, but this title remained at regular price on its product page. Official Black Friday $20-off offers start Nov 22 and, as listed on Nintendo’s 12 November 2026 news post, name other titles, not this one."
     },
     {
       "id": 6,
@@ -736,8 +850,8 @@
       "deal_url": "https://www.nintendo.com/us/store/products/pokemon-scarlet-switch/",
       "source": "official_store",
       "affiliate_or_redirect": 0,
-      "date_checked": "2026-11-14",
-      "notes": "Official US Nintendo store product page (schema price $59.99) opened 2026-11-14. Not on sale."
+      "date_checked": "2026-11-21",
+      "notes": "Official US Nintendo store product page JSON-LD offer price opened 2026-11-21. In stock and not discounted (schema price equals the stored regular price; no sale price was shown for this product). The official Nov 19–Dec 2 digital sale is running, but this title remained at regular price on its product page. Official Black Friday $20-off offers start Nov 22 and, as listed on Nintendo’s 12 November 2026 news post, name other titles, not this one."
     },
     {
       "id": 7,
@@ -758,8 +872,8 @@
       "deal_url": "https://www.nintendo.com/us/store/products/pokemon-violet-switch/",
       "source": "official_store",
       "affiliate_or_redirect": 0,
-      "date_checked": "2026-11-14",
-      "notes": "Official US Nintendo store product page (schema price $59.99) opened 2026-11-14. Not on sale."
+      "date_checked": "2026-11-21",
+      "notes": "Official US Nintendo store product page JSON-LD offer price opened 2026-11-21. In stock and not discounted (schema price equals the stored regular price; no sale price was shown for this product). The official Nov 19–Dec 2 digital sale is running, but this title remained at regular price on its product page. Official Black Friday $20-off offers start Nov 22 and, as listed on Nintendo’s 12 November 2026 news post, name other titles, not this one."
     },
     {
       "id": 8,
