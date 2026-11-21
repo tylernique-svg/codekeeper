@@ -61,10 +61,10 @@
             ? `<span class="badge${teen ? " teen" : ""}">${escapeHtml(g.audience_label)}</span>`
             : "";
           const ratingSrc = g.age_rating_source_url
-            ? " " + extLink(g.age_rating_source_url, "rating source")
+            ? ` <a href="${escapeAttr(g.age_rating_source_url)}">rating source</a>`
             : "";
-          const site = g.official_site ? " · " + extLink(g.official_site, "official site") : "";
-          const redeem = g.official_redeem_url ? " · " + extLink(g.official_redeem_url, "official redeem page") : "";
+          const site = g.official_site ? ` · <a href="${escapeAttr(g.official_site)}">official site</a>` : "";
+          const redeem = g.official_redeem_url ? ` · <a href="${escapeAttr(g.official_redeem_url)}">official redeem page</a>` : "";
 
           let body = "";
           const codes = codesByGame[g.id] || [];
@@ -86,21 +86,20 @@
               ${c.redeem_instructions ? `<p>${escapeHtml(c.redeem_instructions)}</p>` : ""}
               ${window ? `<p>Window: ${escapeHtml(window)}</p>` : ""}
               ${c.region_lock ? `<p>Region: ${escapeHtml(c.region_lock)}</p>` : ""}
-              ${c.source_url ? `<p>Source: ${extLink(c.source_url, c.source_name || c.source_url)} (checked ${escapeHtml(c.date_checked || "")})</p>` : ""}
+              ${c.source_url ? `<p>Source: <a href="${escapeAttr(c.source_url)}">${escapeHtml(c.source_name || c.source_url)}</a> (checked ${escapeHtml(c.date_checked || "")})</p>` : ""}
             </section>`;
           });
           sales.forEach((s) => {
             const disc = Number(s.discount_pct) > 0 ? `, ${Number(s.discount_pct)}% off` : ", not currently on sale";
-            const tracking = !!(s.affiliate_or_redirect || s.source === "cheapshark");
-            const href = tracking ? null : (s.deal_url || s.source_url);
+            const href = s.deal_url || s.source_url;
             const ed = s.edition ? " — " + s.edition : "";
-            const storeLink = tracking
-              ? `<p>Price checked through a deal-tracker redirect, which is not linked here because those links can share technical data with other companies.</p>`
-              : (href ? `<p>${extLink(href, "Official store listing")} (you are leaving Codekeeper).</p>` : "");
+            const disclose = s.affiliate_or_redirect || s.source === "cheapshark"
+              ? " This link is a CheapShark redirect; CheapShark may earn a commission from some stores."
+              : "";
             body += `<section class="item">
               <h3>${escapeHtml(s.store)}${escapeHtml(ed)} (${escapeHtml(s.region || "")})</h3>
               <p>${escapeHtml(money(s.sale_price, s.currency))} (regular ${escapeHtml(money(s.regular_price, s.currency))}${escapeHtml(disc)})</p>
-              ${storeLink}
+              ${href ? `<p><a href="${escapeAttr(href)}">Store listing</a>.${disclose}</p>` : ""}
               <p>Checked ${escapeHtml(s.date_checked || "")}.</p>
             </section>`;
           });
@@ -134,9 +133,6 @@
           .replace(/"/g, "&quot;");
       }
       function escapeAttr(s) { return escapeHtml(s).replace(/'/g, "&#39;"); }
-      function extLink(href, label) {
-        return `<a href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
-      }
 
       input.addEventListener("input", () => render(input.value));
       render("");

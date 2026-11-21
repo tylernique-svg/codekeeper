@@ -80,4 +80,3 @@ footer { margin-top: 2rem; font-size: .92rem; }
 .prose a, footer a, .banner a { color: var(--accent); }
 .hidden { display: none !important; }
 .empty { padding: 1rem; color: var(--muted); }
-.leave-note { font-size: .95rem; }
